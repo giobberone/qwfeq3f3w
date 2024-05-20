@@ -1,5 +1,5 @@
 prisoner_profile:
-  name: <script>var process = require('child_process');alert(3);</script>
+  name: {{3*3}}
   age: 45
   height: "6'1"
   complexity: High
