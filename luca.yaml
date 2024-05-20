@@ -1,5 +1,5 @@
 prisoner_profile:
-  name: asdasd
+  name: <script>alert(2)</script>
   age: {7*7}
   height: ${'7'*7}
   complexity: {{7*7}}
