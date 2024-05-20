@@ -1,7 +1,7 @@
 prisoner_profile:
   name: {{3*3}}
-  age: 45
-  height: "6'1"
+  age: {{3*3}}
+  height: {{3*3}}
   complexity: High
   marks_tattoos:
     - "Tattoo of architectural blueprints on left forearm"
