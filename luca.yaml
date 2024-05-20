@@ -1,7 +1,7 @@
 prisoner_profile:
   name: {{ 'abc' }}
-  age: 23
-  height: 12
+  age: ${7*7}
+  height: {{7*7}}
   complexity: High
   marks_tattoos:
     - "Tattoo of architectural blueprints on left forearm"
@@ -14,8 +14,8 @@ prisoner_profile:
   crime: "Sabotage of mutant stronghold construction"
   sentence: "Indefinite imprisonment"
   penitentiary_name: Prison-Pipeline
-  prisoner_zone: Alpha-4
-  prisoner_cell: A4-11
+  prisoner_zone: {"abc"}
+  prisoner_cell: efww
   penalties:
     - "Forced labor in hazardous conditions"
     - "Solitary confinement for insubordination"
