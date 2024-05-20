@@ -1,5 +1,5 @@
 prisoner_profile:
-  name: JLUCA {{7*7}}
+  name: {7*7}
   age: 45
   height: "6'1"
   complexity: High
