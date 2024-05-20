@@ -1,6 +1,6 @@
 prisoner_profile:
   name: <%= 3*3 %>
-  age: 12
+  age: {{"ano"}}
   height: 12
   complexity: High
   marks_tattoos:
